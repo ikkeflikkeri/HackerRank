@@ -85,6 +85,7 @@
     <Compile Include="Algorithms\Strings\CaesarCipher.cs" />
     <Compile Include="Algorithms\Strings\CamelCase.cs" />
     <Compile Include="Algorithms\Strings\FunnyString.cs" />
+    <Compile Include="Algorithms\Strings\GemStones.cs" />
     <Compile Include="Algorithms\Strings\MarsExploration.cs" />
     <Compile Include="Algorithms\Strings\Pangrams.cs" />
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
