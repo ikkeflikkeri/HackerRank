@@ -10,7 +10,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            IChallenge challenge = new Algorithms.Strings.TwoCharacters();
+            IChallenge challenge = new Algorithms.Strings.Pangrams();
             challenge.Solve();
         }
     }

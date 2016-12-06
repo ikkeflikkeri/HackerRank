@@ -83,6 +83,7 @@
     <Compile Include="Algorithms\Implementation\UtopianTree.cs" />
     <Compile Include="Algorithms\Implementation\ViralAdvertising.cs" />
     <Compile Include="Algorithms\Strings\CamelCase.cs" />
+    <Compile Include="Algorithms\Strings\Pangrams.cs" />
     <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
     <Compile Include="Algorithms\Strings\TwoCharacters.cs" />
     <Compile Include="Algorithms\Warmup\CircularArrayRotation.cs" />
