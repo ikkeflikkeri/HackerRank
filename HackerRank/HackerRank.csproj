@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E17A894-83F2-4536-B2E5-D6B219154A97}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HackerRank</RootNamespace>
+    <AssemblyName>HackerRank Solutions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Implementation\AcmIcpcTeam.cs" />
+    <Compile Include="Algorithms\Implementation\AngryProfessor.cs" />
+    <Compile Include="Algorithms\Implementation\AppleAndOrange.cs" />
+    <Compile Include="Algorithms\Implementation\BeautifulDaysAtTheMovies.cs" />
+    <Compile Include="Algorithms\Implementation\BeautifulTriplets.cs" />
+    <Compile Include="Algorithms\Implementation\BetweenTwoSets.cs" />
+    <Compile Include="Algorithms\Implementation\BiggerIsGreater.cs" />
+    <Compile Include="Algorithms\Implementation\BonAppetit.cs" />
+    <Compile Include="Algorithms\Implementation\CavityMap.cs" />
+    <Compile Include="Algorithms\Implementation\ChocolateFeast.cs" />
+    <Compile Include="Algorithms\Implementation\CutTheSticks.cs" />
+    <Compile Include="Algorithms\Implementation\DesignerPdfViewer.cs" />
+    <Compile Include="Algorithms\Implementation\DivisibleSumPairs.cs" />
+    <Compile Include="Algorithms\Implementation\Encryption.cs" />
+    <Compile Include="Algorithms\Implementation\EqualizeTheArray.cs" />
+    <Compile Include="Algorithms\Implementation\ExtraLongFactorials.cs" />
+    <Compile Include="Algorithms\Implementation\FairRations.cs" />
+    <Compile Include="Algorithms\Implementation\FindDigits.cs" />
+    <Compile Include="Algorithms\Implementation\FlatlandSpaceStations.cs" />
+    <Compile Include="Algorithms\Implementation\HappyLadybugs.cs" />
+    <Compile Include="Algorithms\Implementation\JumpingOnTheClouds.cs" />
+    <Compile Include="Algorithms\Implementation\JumpingOnTheCloudsRevisited.cs" />
+    <Compile Include="Algorithms\Implementation\Kangaroo.cs" />
+    <Compile Include="Algorithms\Implementation\LibraryFine.cs" />
+    <Compile Include="Algorithms\Implementation\LisaWorkbook.cs" />
+    <Compile Include="Algorithms\Implementation\ManaseAndStones.cs" />
+    <Compile Include="Algorithms\Implementation\MiniMaxSum.cs" />
+    <Compile Include="Algorithms\Implementation\MinimumDistances.cs" />
+    <Compile Include="Algorithms\Implementation\ModifiedKaprekarNumbers.cs" />
+    <Compile Include="Algorithms\Implementation\RepeatedString.cs" />
+    <Compile Include="Algorithms\Implementation\SaveThePrisoner.cs" />
+    <Compile Include="Algorithms\Implementation\ServiceLane.cs" />
+    <Compile Include="Algorithms\Implementation\SherlockAndSquares.cs" />
+    <Compile Include="Algorithms\Implementation\SockMerchant.cs" />
+    <Compile Include="Algorithms\Implementation\StrangeCounter.cs" />
+    <Compile Include="Algorithms\Implementation\TaumAndBday.cs" />
+    <Compile Include="Algorithms\Implementation\TheGridSearch.cs" />
+    <Compile Include="Algorithms\Implementation\TheTimeInWords.cs" />
+    <Compile Include="Algorithms\Implementation\UtopianTree.cs" />
+    <Compile Include="Algorithms\Implementation\ViralAdvertising.cs" />
+    <Compile Include="Algorithms\Strings\CamelCase.cs" />
+    <Compile Include="Algorithms\Strings\SuperReducedString.cs" />
+    <Compile Include="Algorithms\Strings\TwoCharacters.cs" />
+    <Compile Include="Algorithms\Warmup\CircularArrayRotation.cs" />
+    <Compile Include="Algorithms\Warmup\CompareTheTriplets.cs" />
+    <Compile Include="Algorithms\Warmup\DiagonalDifference.cs" />
+    <Compile Include="Algorithms\Warmup\PlusMinus.cs" />
+    <Compile Include="Algorithms\Warmup\SimpleArraySum.cs" />
+    <Compile Include="Algorithms\Warmup\SolveMeFirst.cs" />
+    <Compile Include="Algorithms\Warmup\Staircase.cs" />
+    <Compile Include="Algorithms\Warmup\TimeConversion.cs" />
+    <Compile Include="Algorithms\Warmup\VeryBigSum.cs" />
+    <Compile Include="Challenge.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
